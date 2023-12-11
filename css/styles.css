@@ -1,0 +1,83 @@
+/* This is the main CSS file for the CS Zero website. It contains the styles for the layout and design of the website. */
+
+/* Global Styles */
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.card-img-top {
+    height: 200px; /* or whatever height you want */
+    object-fit: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Homepage Styles */
+.home-header {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.home-header h1 {
+    font-size: 30px;
+}
+
+/* Curriculum Page Styles */
+.curriculum-header {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.curriculum-header h1 {
+    font-size: 30px;
+}
+
+/* Week Page Styles */
+.week-header {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.week-header h1 {
+    font-size: 30px;
+}
+
+/* About Page Styles */
+.about-header {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 30px;
+}
