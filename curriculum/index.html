@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger text-white">
+        <a class="navbar-brand" href="#">
+            <img src="../img/fsb_seal.png" alt="CS Zero Logo" width="30" height="30" class="d-inline-block align-text-top">
+            CS Zero
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="curriculum">Curriculum</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        This is an internal website for the Friends School of Baltimore. It is not intended for public use.
+        CS Zero is currently in development and not yet publicly available.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        CS Zero is fully open-source! The curriculum and supporting code are available on <a href="https://github.com/friendsbaltcs/CS-Zero">GitHub</a>.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <main>
+        <!-- Curriculum Overview -->
+        <section class="jumbotron">
+            <div class="container my-5">
+                <h1 class="jumbotron-heading">Curriculum Overview</h1>
+                <p class="lead text-muted">
+                    CS Zero is divided into three, weeklong units, each covering a different aspect
+                    of the CS curriculum at Friends. The lessons of each unit will introduce the basic
+                    elements of computation, physical computing, or creative coding and will include
+                    both lectures and opportunities for hands-on learning and individual projects.
+                </p>
+            </div>
+        </section>
+
+        <!-- Week 1 -->
+        <section>
+            <div id="week-1-container" class="container my-5">
+                <h2 class="mb-4">Week 1: Introduction to Computation</h2>
+                <div class="accordion" id="week1Accordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week1Lesson1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#week1Collapse1" aria-expanded="true" aria-controls="week1Collapse1">
+                                Lesson 1: Computational Theory
+                            </button>
+                        </h3>
+                        <div id="week1Collapse1" class="accordion-collapse collapse show" aria-labelledby="week1Lesson1" data-bs-parent="#week1Accordion">
+                            <div class="accordion-body">
+                                <p>What does it mean to compute? How are machines able to perform calculations? This lesson will introduce
+                                the basics of the theory of computation and discuss the basic operations of computers. Topics include:</p>
+
+                                <ul>
+                                    <li>Number systems</li>
+                                    <li>Logical circuitry</li>
+                                    <li>Boolean algebra</li>
+                                    <li>Binary arithmetic</li>
+                                    <li>Programming Languages</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week1Lesson2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week1Collapse2" aria-expanded="false" aria-controls="week1Collapse2">
+                                Lesson 2: Procedural Programming
+                            </button>
+                        </h3>
+                        <div id="week1Collapse2" class="accordion-collapse collapse" aria-labelledby="week1Lesson2" data-bs-parent="#week1Accordion">
+                            <div class="accordion-body">
+                                <p><em>Procedural programming</em> is a coding technique that emphasizes "procedures" or
+                                the sequences of instructions given by the programmer to the computer. We'll cover the
+                                the essential elements of constructing, combining, and invoking procedures in Python.
+                                Specific topics will include:</p>
+                                <ul>
+                                    <li>Variables and data types</li>
+                                    <li>Operators and expressions</li>
+                                    <li>Functions</li>
+                                    <li>Control flow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week1Lesson3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week1Collapse3" aria-expanded="false" aria-controls="week1Collapse3">
+                                Lesson 3: Object-Oriented Programming
+                            </button>
+                        </h3>
+                        <div id="week1Collapse3" class="accordion-collapse collapse" aria-labelledby="week1Lesson3" data-bs-parent="#week1Accordion">
+                            <div class="accordion-body">
+                                <p>
+                                    <em>Object-Oriented Programming</em> or <em>OOP</em> is a coding technique that emphasizes
+                                    the use of <em>objects</em> to represent data and the interactions between them. We'll discuss
+                                    the basics of data-driven coding and the structuring of objects in your code. Topics covered
+                                    will include:
+                                </p>
+                                <ul>
+                                    <li>Classes and objects</li>
+                                    <li>Attributes and methods</li>
+                                    <li>Constructors and destructors</li>
+                                    <li>Inheritance and polymorphism</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week2Lesson4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week2Collapse4" aria-expanded="false" aria-controls="week2Collapse4">
+                                Lesson 4: Software Development
+                            </button>
+                        </h3>
+                        <div id="week2Collapse4" class="accordion-collapse collapse" aria-labelledby="week2Lesson4" data-bs-parent="#week1Accordion">
+                            <div class="accordion-body">
+                                <p>
+                                    In this final lesson, we'll discuss the software development process and how to
+                                    collaborate with others on coding projects. Topics covered will include:
+                                </p>
+                                <ul>
+                                    <li>Software development life cycle</li>
+                                    <li>Testing and debugging</li>
+                                    <li>File Structure</li>
+                                    <li>Building our first project</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Week 2 -->
+        <section>
+            <div class="container my-5">
+                <h2 class="mb-4">Week 2: Physical Computing</h2>
+                <div class="accordion" id="week2Accordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week2Lesson1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#week2Collapse1" aria-expanded="true" aria-controls="week2Collapse1">
+                                Lesson 1: Introduction to Electronics
+                            </button>
+                        </h3>
+                        <div id="week2Collapse1" class="accordion-collapse collapse show" aria-labelledby="week2Lesson1" data-bs-parent="#week2Accordion">
+                            <div class="accordion-body">
+                                This lesson will introduce students to the basics of electronics and how to work with electronic components.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week2Lesson2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week2Collapse2" aria-expanded="false" aria-controls="week2Collapse2">
+                                Lesson 2: Interfacing with Sensors
+                            </button>
+                        </h3>
+                        <div id="week2Collapse2" class="accordion-collapse collapse" aria-labelledby="week2Lesson2" data-bs-parent="#week2Accordion">
+                            <div class="accordion-body">
+                                Students will learn how to interface with sensors and use sensor data in their programs.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week2Lesson3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week2Collapse3" aria-expanded="false" aria-controls="week2Collapse3">
+                                Lesson 3: Controlling Actuators
+                            </button>
+                        </h3>
+                        <div id="week2Collapse3" class="accordion-collapse collapse" aria-labelledby="week2Lesson3" data-bs-parent="#week2Accordion">
+                            <div class="accordion-body">
+                                This lesson will cover how to control actuators such as motors and LEDs using programming and electronic circuits.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Week 3 -->
+        <section>
+            <div class="container my-5">
+                <h2 class="mb-4">Week 3: Creative Coding</h2>
+                <div class="accordion" id="week3Accordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week3Lesson1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#week3Collapse1" aria-expanded="true" aria-controls="week3Collapse1">
+                                Lesson 1: Introduction to Creative Coding
+                            </button>
+                        </h3>
+                        <div id="week3Collapse1" class="accordion-collapse collapse show" aria-labelledby="week3Lesson1" data-bs-parent="#week3Accordion">
+                            <div class="accordion-body">
+                                In this lesson, students will explore the intersection of art and programming by creating visual and interactive projects.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week3Lesson2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week3Collapse2" aria-expanded="false" aria-controls="week3Collapse2">
+                                Lesson 2: Animation and Interactivity
+                            </button>
+                        </h3>
+                        <div id="week3Collapse2" class="accordion-collapse collapse" aria-labelledby="week3Lesson2" data-bs-parent="#week3Accordion">
+                            <div class="accordion-body">
+                                Students will learn how to create animations and add interactivity to their creative coding projects.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week3Lesson3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week3Collapse3" aria-expanded="false" aria-controls="week3Collapse3">
+                                Lesson 3: Final Project Showcase
+                            </button>
+                        </h3>
+                        <div id="week3Collapse3" class="accordion-collapse collapse" aria-labelledby="week3Lesson3" data-bs-parent="#week3Accordion">
+                            <div class="accordion-body">
+                                In this final lesson, students will showcase their creative coding projects and reflect on their learning journey.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="week3Lesson4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#week3Collapse4" aria-expanded="false" aria-controls="week3Collapse4">
+                                Lesson 4: Final Project Showcase
+                            </button>
+                        </h3>
+                        <div id="week3Collapse4" class="accordion-collapse collapse" aria-labelledby="week3Lesson4" data-bs-parent="#week3Accordion">
+                            <div class="accordion-body">
+                                In this final lesson, students will showcase their creative coding projects and reflect on their learning journey.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <!-- Replace with your navigation links -->
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <div class="text-center">
+            <img src="../img/fsb_logo.png" alt="FSB Logo" height="75" class="d-inline-block align-text-top">
+        </div>
+        <p class="text-center text-muted">© 2022 Friends School of Baltimore, Department of Computer Science. All rights reserved.</p>
+    </footer>
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
